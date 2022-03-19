@@ -5,5 +5,67 @@
   // "emmet.includeLanguages": {
   // 	"javascript": "javascriptreact"
   // }
-  "javascript.format.semicolons": "insert",  
+  "javascript.format.semicolons": "insert",
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  //JAVA
+  // "[java]": {
+  //     "editor.defaultFormatter": "redhat.java"
+  // },
+  // "java.codeGeneration.generateComments": true,
+  // // This JDK will be used to launch the Java Language Server. by default, will be used to compile your projects.
+  // "java.jdt.ls.java.home": "D:\\JDK17",
+  // "java.implementationsCodeLens.enabled": true,
+  "emmet.includeLanguages": {
+    "postcss": "css",
+    "javascript": "javascriptreact"
+  },
+
+  "editor.formatOnSave": true,
+  "editor.cursorBlinking": "smooth",
+  "editor.fontSize": 14,
+  "editor.wordWrap": "on",
+  "editor.autoIndent": "advanced",
+  "editor.formatOnSaveMode": "modificationsIfAvailable",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.guides.bracketPairsHorizontal": true,
+  "editor.minimap.showSlider": "always",
+  "editor.suggest.insertMode": "replace",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.suggestSelection": "recentlyUsed",
+  "editor.tabCompletion": "off",
+  "editor.suggest.localityBonus": true,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+
+  "liveServer.settings.NoBrowser": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+
+  "diffEditor.wordWrap": "on",
+  "prettier.printWidth": 120,
+  "editor.tabSize": 2,
+  "prettier.arrowParens": "avoid",
+  "prettier.trailingComma": "all",
+  "workbench.colorTheme": "Default Dark+",
+  "workbench.startupEditor": "none"
 }
