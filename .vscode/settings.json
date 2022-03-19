@@ -1,0 +1,9 @@
+{
+  "eslint.format.enable": true,
+  "eslint.run": "onSave",
+  // for JSX support in react files preferred to rename from .js to .jsx
+  // "emmet.includeLanguages": {
+  // 	"javascript": "javascriptreact"
+  // }
+  "javascript.format.semicolons": "insert",  
+}
