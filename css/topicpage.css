@@ -180,9 +180,6 @@
   nav:hover > ul.nav-links {
     display: block;
   }
-  main {
-    /* width: 70%; */
-  }
   aside {
     /* width: 30%; */
     margin-top: 10px;
