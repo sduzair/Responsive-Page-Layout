@@ -156,10 +156,12 @@
   }
   main {
     width: 70%;
+    float: left;
   }
   aside {
     width: 30%;
-    margin-top: 10px;
+    /* margin-top: 10px; */
+    float: left;
   }
   .container {
     max-width: 720px;
@@ -229,11 +231,12 @@
   }
 
   main {
+    float: left;
     margin: 0;
     border: 0;
     outline: 0;
     /* vertical-align: baseline; */
-    float: left;
+    /* float: left; */
     width: 60%;
     /* width: auto; */
     border-style: dashed;
@@ -245,6 +248,7 @@
 
   aside {
     width: 25%;
+    float: left;
   }
 
   aside > p {

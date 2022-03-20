@@ -124,6 +124,7 @@ figcaption {
 nav {
   /* float: left; */
   /* width: 150px; */
+  /* margin-top: 10px; */
   letter-spacing: 0.1em;
   font-weight: bold;
   background-color: gainsboro;
@@ -180,7 +181,8 @@ nav a:hover {
 }
 
 main {
-  margin: 0;
+  /* margin-top: 10px; */
+  /* margin: 0; */
   border: 0;
   outline: 0;
   /* vertical-align: baseline; */
@@ -196,11 +198,11 @@ main {
 aside {
   padding-left: 0.5rem;
   /* margin-left: 0.5rem; */
-  float: right;
+  /* float: right; */
   /* box-shadow: inset 5px 0 5px -5px #29627e; */
   font-style: italic;
   color: #29627e;
-  float: left;
+  /* float: left; */
   letter-spacing: 0.1em;
   font-weight: bold;
   background-color: gainsboro;
@@ -226,6 +228,7 @@ aside li:hover {
 }
 
 header {
+  /* overflow: auto; */
   text-align: center;
   font-size: xx-large;
   background-color: gainsboro;
@@ -419,7 +422,7 @@ hr {
   margin-right: -9px;
 }
 
-.flex-container {
+.flex-container-image-gallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -603,8 +606,8 @@ input#checkbox-grid {
   /* grid-template-rows: repeat(11, 5vw); */
   grid-gap: 10px;
   /* grid-template-columns: auto auto auto auto; */
-  animation: mymove 5s;
-  animation-iteration-count: unset;
+  /* animation: mymove 5s; */
+  /* animation-iteration-count: unset; */
 }
 
 .grid-img {
