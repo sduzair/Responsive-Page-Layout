@@ -184,7 +184,7 @@ main {
   border: 0;
   outline: 0;
   /* vertical-align: baseline; */
-  float: left;
+  /* float: left; */
   /* width: calc(100% - 150px); */
   border-style: dashed;
   border-width: 4px;
@@ -249,10 +249,6 @@ footer > div:nth-child(3) {
 }
 
 @media (max-width: 1024px) {
-  nav {
-    float: none;
-    width: auto;
-  }
 
   nav li {
     display: inline-block;
@@ -269,12 +265,6 @@ footer > div:nth-child(3) {
 }
 
 @media (max-width: 768px) {
-  nav,
-  nav ul,
-  nav li {
-    padding: 0;
-    margin: 2px;
-  }
 
   nav li {
     display: block;
@@ -292,6 +282,10 @@ footer > div:nth-child(3) {
     border-bottom: none;
   }
 }
+
+/* body {
+  scroll-behavior: smooth;
+} */
 
 /* CSS for HTML elements ENDS-------------------------------------------------------- */
 /* Contribution of: Uzair Ahmed Syed usyed6155@conestogac.on.ca---------------------- */
